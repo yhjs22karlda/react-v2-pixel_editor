@@ -1,0 +1,31 @@
+.dimentions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .4rem;
+}
+
+.dimentions h3 {
+    margin: 0 0 1rem;
+    color: #ddd
+}
+
+.dimentions input {
+    background-color: #151625;
+    border: none;
+    color: #ddd;
+    margin: .2rem;
+    padding: .25rem;
+    width: 80%;
+    box-shadow: -1px 0px 5px 1px #4464d0,
+                 1px 0px 5px 1px #bc12bc;
+}
+
+.dimentions button {
+    padding: .6rem 1.5rem;
+    border-radius: 999px;
+    color: #ddd;
+    background: linear-gradient(to right, #4464d0,#bc12bc );
+    cursor: pointer;
+
+}

@@ -1,6 +1,7 @@
 .pixel {
     width:24px;
     height: 24px;
-    background-color: beige;
-    margin: 1rem;
+    background-color: black;
+    margin: 0rem;
+    border: 1px solid gray;
 }

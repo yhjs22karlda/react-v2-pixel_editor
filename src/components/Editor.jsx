@@ -1,19 +1,19 @@
 import { useState } from 'react'
 import {TwitterPicker} from 'react-color'
 import DrawingPanel from './DrawingPanel'
+import './Editor.css'
 
-export default function Editor() {
-    const [color, setColor] = useState("")
+export default function Editor({rows, columns}) {
+    const [color, setColor] = useState("#000000")
 
     function handleColor(color) {
-        console.log(color.hex);
         setColor(color.hex)
     }
 
     return (
-        <div>
-            <TwitterPicker onChangeComplete={handleColor}/>
-            <DrawingPanel color={color}/> 
+        <div className='editor'>
+            <TwitterPicker onChangeComplete={handleColor} color={color} />
+            <DrawingPanel rows={rows} columns={columns} color={color} /> 
         </div>
     )
 }

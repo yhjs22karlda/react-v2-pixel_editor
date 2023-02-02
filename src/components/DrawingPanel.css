@@ -1,0 +1,7 @@
+.panel {
+    margin-top: 1rem;
+    border: 2px solid gray;
+}
+.panel .panel-row {
+    display: flex;
+}
