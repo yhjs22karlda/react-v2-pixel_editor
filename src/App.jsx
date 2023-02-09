@@ -9,7 +9,7 @@ export default function App() {
     const [clicked, setClicked] = useState(false)
 
     function handleClick() {
-        if(rows > 0 && rows < 64 && columns > 0 && columns < 64) {
+        if(rows > 0 && rows < 65 && columns > 0 && columns < 65) {
             setClicked(true)
         }
     }
